@@ -143,43 +143,44 @@ nav a:hover {
   font-family: "Marcellus", serif;
   color: var(--blanco);
 }
-/*Resolución tablet*/ 
+/*Resolución tablet*/
 @media screen and (min-width: 768px) {
 }
-/*Resolución notebooks*/ 
+/*Resolución notebooks*/
 
-@media screen and (min-width: 1024px){ 
-       
-    nav{ 
-        display: flex; 
-        flex-direction: row; /cambiamos la disposición de los elementos 
-        width: 100%; 
-        justify-content: space-between; 
-        background-color: var(--negro2); 
-    } 
-    .logo{ 
-        padding: 1rem; 
-    } 
-    .logo img{ 
-        width: 100%; 
-        max-width: 180px;        
-    } 
-    .logo i{ /ocultamos el ícono bars del menú hamburguesa 
-        display: none; 
-    }  
-    .menu{ 
-      background-color: var(--negro2); 
-      display: flex; 
-      flex-direction: row; 
-      align-items: center; 
-      } 
-      .menu-hr{ /ocultamos la barra de división 
-      display: none; 
-      } 
-      .navbar-button{ 
-      background-color:var(--azuloscuro); 
-      }        
-      } 
-      /*Resolución notebooks*/ 
-@media screen and (min-width: 1308px){ 
+@media screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row; /*cambiamos la disposición de los elementos */
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--negro2);
+  }
+  .logo {
+    padding: 1rem;
+  }
+  .logo img {
+    width: 100%;
+    max-width: 180px;
+  }
+  .logo i {
+    /*ocultamos el ícono bars del menú hamburguesa */
+    display: none;
+  }
+  .menu {
+    background-color: var(--negro2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu-hr {
+    /*ocultamos la barra de división */
+    display: none;
+  }
+  .navbar-button {
+    background-color: var(--azuloscuro);
+  }
+}
+/*Resolución notebooks*/
+@media screen and (min-width: 1308px) {
 }
